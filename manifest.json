@@ -1,0 +1,19 @@
+{
+  "name": "Cookie Reader",
+  "version": "1.0",
+  "manifest_version": 3,
+  "host_permissions": ["<all_urls>"],
+  "permissions": [
+    "cookies",
+    "webRequest",
+    "alarms",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "logo.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
